@@ -14,7 +14,7 @@
       </div>
       
       <form id="item-form">
-        <div class="row">
+        <div class="row firstRow">
           <div class="col-xs-4">
             <div class="item">
               <label>
@@ -57,7 +57,7 @@
       </form>
       <form class="hide" id="user-form">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-xs-6 userInfo">
             <div class="form-group">
               <label for="name">Full Name:</label>
               <input type="text" class="form-control" id="name">
@@ -75,8 +75,8 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="hide" id="receipt">
-            <h1>Thanks for your purchase of <span id="price"></span>:</h1>
+          <div class="hide userInfo" id="receipt">
+            <h1>Thanks for your purchase of <span id="price"></span> (including tax):</h1>
             <h3 id=uName></h3>
             <h1>Your item <span id="purch"></span> is being shipped to:</h1>
             <h3 id=uAddress></h3>
