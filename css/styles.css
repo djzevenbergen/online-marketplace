@@ -1,0 +1,22 @@
+img {
+  width: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.item {
+  border: solid 3px black;
+  text-align: center;
+}
+
+.buttonCenter {
+  text-align: center;
+  
+}
+
+.btn {
+  background-color: aqua;
+  border: solid 2px blue;
+}
